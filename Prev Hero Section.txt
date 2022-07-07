@@ -1,0 +1,27 @@
+Prev Hero Section
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Are you looking for ways to save money on your auto insurance?</h1>
+          <h2>We at Be Auto Insurance strive to give cheap car insurance also while offering the best auto insurance for
+            you by offering privileges that other insurers do not.</h2>
+          <form action="appointment-step2.php" method="POST">
+            <div><input style="background-color:#fff; color:#D02229;" type="text" class="btn btn-danger"
+                placeholder="Enter Zip Code" name="zip_code" /> <input type="submit" name="submit"
+                class="btn-get-started scrollto" /></div>
+          </form>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <!-- <img src="assets/img/hero-img.png" class="img-fluid" alt=""> -->
+          <img src="assets/img/redcarrr.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  
+
+  </section><!-- End Hero -->

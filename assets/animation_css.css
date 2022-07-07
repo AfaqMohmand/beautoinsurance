@@ -1,0 +1,87 @@
+.bg {
+  /* /* width: 100%; */
+   height: 320px;
+  background-image: url('../assets/img/anim/BUILD.jpg') !important; 
+  /* background-color: aqua; */
+   background-repeat: no-repeat !important;
+   background-size:cover !important;
+  max-width:100% !important;
+}
+
+.car1 {
+  left: 5%;
+  position: absolute;
+  top: 210px;
+  animation: car1 11s linear infinite;
+  overflow-x: hidden !important;
+  /* width: 150px; */
+}
+@keyframes car1 {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(1900px);
+  }
+}
+
+
+  .car2 {
+  position: absolute;
+  left: 0%;
+  top: 185px;
+  animation: car2 13s linear 0.2s;
+  animation-iteration-count: infinite;
+  /* width: 120px; */
+}
+@keyframes car2 {
+  from {
+    transform: translateX(1900px);
+  }
+  to {
+    transform: translateX(-50px);
+  }
+}
+
+.car3 {
+  position: absolute;
+  left: 3%;
+  top: 185px;
+  animation: car3 18s linear 0.2s;
+  animation-iteration-count: infinite;
+  /* width: 120px; */
+}
+@keyframes car3 {
+  from {
+    transform: translateX(1900px);
+  }
+  to {
+    transform: translateX(-50px);
+  }
+}
+.car4 {
+  left: 3%;
+  position: absolute;
+  top: 205px;
+  animation: car4 17s linear infinite;
+  overflow-x: hidden !important;
+  /* width: 120px; */
+}
+@keyframes car4 {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(1900px);
+  }
+}
+
+
+
+
+.AnimContainer {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+
+}
